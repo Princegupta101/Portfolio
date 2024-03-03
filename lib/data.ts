@@ -37,7 +37,7 @@ export const projectsData = [
     imageUrl:lms
   },
   {
-    title: "Live Code Sharing",
+    title: "   Live-Code-Share",
     description:
     "This is a MERN-based web app for live code sharing and chatting, ideal for coding interviews.",
     tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "Redux", "CodeMirror","MongoDB"],
@@ -46,3 +46,25 @@ export const projectsData = [
   }
 ] as const;
 
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "Java",
+  "C/C++",
+  "Python",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Tailwind",
+  "MongoDB",
+  "MySQL",
+  "Git/Github",
+  "Redux",
+  "Express.js",
+  "DaisyUI",
+  "bootstrap",
+  "Socket.io",
+  "Framer Motion",
+] as const;

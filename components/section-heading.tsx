@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import React from "react";
 
 type SectionHeadingProps = {
@@ -6,8 +7,13 @@ type SectionHeadingProps = {
 
 export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
-    <h2 className="text-3xl font-semibold text-gray-900 mb-6 text-center md:text-4xl lg:text-5xl">
+    <motion.h2 
+    initial={{ opacity: 0, y: 100 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.175 }}
+    className="text-3xl font-semibold text-gray-900 mb-6 text-center md:text-4xl lg:text-5xl dark:text-white/70"
+    >
       {children}
-    </h2>
+    </motion.h2>
   );
 }

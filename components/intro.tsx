@@ -85,7 +85,7 @@ export default function Intro() {
             </Link>
 
             <a
-                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
+                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60"
                     href="/CV.pdf"
                     download
                 >
@@ -96,7 +96,7 @@ export default function Intro() {
             <div className='flex flex-row  items-center justify-center gap-4  text-lg font-medium'>
         
                 <a
-                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black"
+                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
                     href="https://www.linkedin.com/in/prince-gupta-0201b824b"
                     target="_blank"
                 >
@@ -104,7 +104,7 @@ export default function Intro() {
                 </a>
 
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black"
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
                     href="https://github.com/Princegupta101"
                     target="_blank"
                 >
@@ -112,7 +112,7 @@ export default function Intro() {
                 </a>
 
                 <a
-                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black"
+                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
                 href="https://leetcode.com/pgupta28349/"
                 target="_blank"
             >

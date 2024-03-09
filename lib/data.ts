@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 import lms from "@/public/lms.jpg"
+import portfolio from "@/public/portfolio.jpg"
 
 export const links = [
   {
@@ -46,8 +47,16 @@ export const projectsData = [
     description:
     "This is a MERN-based web app for live code sharing and chatting, ideal for coding interviews.",
     tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "Redux", "CodeMirror","MongoDB"],
-    link:"https://lms-client-50l0.onrender.com/",
+    link:"https://github.com/Princegupta101/Live-Code-Share",
     imageUrl: lms
+  },
+  {
+    title: "Portfolio",
+    description:
+    "This is a TypeScript-based app showcasing my projects and skills.",
+    tags: ["c.js", "Framer", "Motion", "TypeScript", "Tailwind " , "Email"],
+    link:"",
+    imageUrl: portfolio
   }
 ] as const;
 

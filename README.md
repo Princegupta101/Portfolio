@@ -15,7 +15,7 @@ This TypeScript-based app, built with React & Next.js, TypeScript, Tailwind CSS,
  Clone the project 
 
 ```bash
-git@github.com:Princegupta101/Larning-Management-System.git
+git@github.com:Princegupta101/Portfolio.git
 ```
 ### Setup instruction  for Frontend
 

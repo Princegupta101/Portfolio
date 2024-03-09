@@ -8,11 +8,13 @@ import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { SiLeetcode } from "react-icons/si";
 
+import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from '@/lib/hooks';
 import princeImg from '@/public/princeImg.jpg'
 
 export default function Intro() {
     const { ref } = useSectionInView("Home",0.5);
+    const { activeSection, setActiveSection,setTimeOfLastClick}=useActiveSectionContext();
   return (
     <section
     ref={ref}
@@ -73,6 +75,10 @@ export default function Intro() {
             <Link
                 href="#contact"
                 className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+                onClick={()=>{
+                    setActiveSection("Contact")
+                    setTimeOfLastClick(Date.now())
+                }}
             >
                 Contact me{" "}
                 <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />

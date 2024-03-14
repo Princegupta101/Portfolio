@@ -22,7 +22,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
             I'm Prince Gupta, a dynamic{" "}
-            <span className="font-medium">Computer Science undergraduate</span> at SRIST
+            <span className="font-medium">Computer Science undergraduate pursuing my B.Tech </span> at SRIST
             Jabalpur, deeply passionate about{" "}
             <span className="italic">software engineering and programming</span>. With a
             solid foundation in JavaScript, I extend my expertise to TypeScript,{" "}

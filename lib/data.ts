@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
+import live from "@/public/livecode.jpg"
 import lms from "@/public/lms.jpg"
 import portfolio from "@/public/portfolio.jpg"
 
@@ -48,7 +49,7 @@ export const projectsData = [
     "This is a MERN-based web app for live code sharing and chatting, ideal for coding interviews.",
     tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "Redux", "CodeMirror","MongoDB"],
     link:"https://github.com/Princegupta101/Live-Code-Share",
-    imageUrl: lms
+    imageUrl: live
   },
   {
     title: "Portfolio",

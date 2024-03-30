@@ -48,7 +48,7 @@ export const projectsData = [
     description:
     "This is a MERN-based web app for live code sharing and chatting, ideal for coding interviews.",
     tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "Redux", "CodeMirror","MongoDB"],
-    link:"https://github.com/Princegupta101/Live-Code-Share",
+    link:"https://live-code-share.vercel.app/",
     imageUrl: live
   },
   {

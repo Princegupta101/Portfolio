@@ -40,14 +40,14 @@ export const projectsData = [
     description:
       "This Learning Management System (LMS) is a full-stack web application developed using the MERN stack.",
     tags: ["React", "Express.js","Node.js ","Redux","Cloudinary","MongoDB", "Tailwind", "DaisyUI", "Razorpay"],
-    link:"https://lms-client-50l0.onrender.com/",
+    link:"https://learning-management-system-roan.vercel.app/",
     imageUrl:lms
   },
   {
     title: "   Live-Code-Share",
     description:
     "This is a MERN-based web app for live code sharing and chatting, ideal for coding interviews.",
-    tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "Redux", "CodeMirror","MongoDB"],
+    tags: ["React", "Node.js","Express.js", "Socket.IO", "Tailwind", "CodeMirror"],
     link:"https://live-code-share.vercel.app/",
     imageUrl: live
   },

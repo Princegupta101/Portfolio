@@ -4,6 +4,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { inView } from "framer-motion";
 import React from "react";
 
 import { experiencesData } from "@/lib/data";
@@ -15,7 +16,7 @@ import SectionHeading from "./section-heading";
 import "react-vertical-timeline-component/style.min.css";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref ,inView} = useSectionInView("Experience",0.2);
   const { theme } = useTheme();
 
   return (
@@ -25,7 +26,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-              visible={true}
+              visible={inView}
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",

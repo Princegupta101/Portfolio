@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 import live from "@/public/livecode.jpg"
@@ -72,19 +72,32 @@ export const skillsData = [
   "React.js",
   "Next.js",
   "Node.js",
+  "Redux",
+  "Express.js",
   "Tailwind",
   "MongoDB",
   "MySQL",
+  "Clerk ",
   "Git/Github",
-  "Redux",
-  "Express.js",
+  "Razorpay",
+  "Stripe",
   "DaisyUI",
   "bootstrap",
   "Socket.io",
   "Framer Motion",
+  "OOP",
+  "DSA",
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Full Stack Web Developer(Core Team )",
+    location: "Remote",
+    description:
+    "Implemented key features on the GirlScript Summer of Code (GSSOC 2024) website, leading to a more engaging and user-friendly experience.",
+    icon: React.createElement(FaCode),
+    date: "04/24-Present",
+  },
   {
     title: "AICTE Virtual Cyber Security Internship",
     location: "Remote",

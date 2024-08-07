@@ -10,7 +10,7 @@ import { SiLeetcode } from "react-icons/si";
 
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from '@/lib/hooks';
-import princeImg from '@/public/princeImg.jpeg'
+import princeImg from '@/public/princeImg.jpg'
 
 export default function Intro() {
     const { ref } = useSectionInView("Home",0.5);

@@ -2,13 +2,53 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+:root {
+  --color-primary: #0077b6;
+  --color-secondary: #ffd700;
+  --color-background: #f5f5f5;
+  --color-text: #333333;
+  --color-text-secondary: #666666;
+}
+
+.dark {
+  --color-background: #111111;
+  --color-text: #f5f5f5;
+  --color-text-secondary: #cccccc;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Add global animations and micro-interactions */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
 html {
---line-color: #e5e7eb;
-}
-.borderBlack {
-@apply border border-black/10;
-}
-html.dark {
-    --line-color: rgba(255, 255, 255, 0.2);
-}
-  
+    --line-color: #e5e7eb;
+    }
+    .borderBlack {
+    @apply border border-black/10;
+    }
+    html.dark {
+        --line-color: rgba(255, 255, 255, 0.2);
+    }
+      
+/* Add more global styles as needed */

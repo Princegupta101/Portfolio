@@ -112,7 +112,7 @@ export default function Intro() {
 
                 <a
                 className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
-                href="https://leetcode.com/pgupta28349/"
+                href="https://leetcode.com/u/princegupta101/"
                 target="_blank"
             >
                 <SiLeetcode />

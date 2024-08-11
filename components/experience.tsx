@@ -1,52 +1,53 @@
+// Experience.tsx
 "use client";
 
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { inView } from "framer-motion";
-import React from "react";
+} from 'react-vertical-timeline-component';
+import { inView } from 'framer-motion';
+import React from 'react';
 
-import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-contex";
+import { experiencesData } from '@/lib/data';
+import { useSectionInView } from '@/lib/hooks';
+import { useTheme } from '@/context/theme-contex';
 
-import SectionHeading from "./section-heading";
+import SectionHeading from './section-heading';
 
-import "react-vertical-timeline-component/style.min.css";
+import 'react-vertical-timeline-component/style.min.css';
 
 export default function Experience() {
-  const { ref ,inView} = useSectionInView("Experience",0.2);
+  const { ref, inView } = useSectionInView('Experience', 0.2);
   const { theme } = useTheme();
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
-      <VerticalTimeline lineColor="" >
+      <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               visible={inView}
               contentStyle={{
                 background:
-                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
-                boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
-                textAlign: "left",
-                padding: "1.3rem 2rem",
+                  theme === 'light' ? '#f3f4f6' : 'rgba(255, 255, 255, 0.05)',
+                boxShadow: 'none',
+                border: '1px solid rgba(0, 0, 0, 0.05)',
+                textAlign: 'left',
+                padding: '1.3rem 2rem',
               }}
               contentArrowStyle={{
                 borderRight:
-                  theme === "light"
-                    ? "0.4rem solid #9ca3af"
-                    : "0.4rem solid rgba(255, 255, 255, 0.5)",
+                  theme === 'light'
+                    ? '0.4rem solid #9ca3af'
+                    : '0.4rem solid rgba(255, 255, 255, 0.5)',
               }}
               date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
-                  theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
-                fontSize: "1.5rem",
+                  theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
+                fontSize: '1.5rem',
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>

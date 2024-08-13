@@ -35,14 +35,7 @@ export const links = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "SwiftScribe",
-    description:
-    "SwiftScribe is a SaaS platform that offers efficient study material management, peer collaboration, and AI-powered academic support.",
-    tags: ["Next.js", "PostgreSQL","TypeScript", "Kinde","ChatGPT API","STRIPE"],
-    link:"https://swift-scribe-seven.vercel.app/",
-    imageUrl: SwiftScribe
-  },
+  ,
   {
     title: "   Live-Code-Share",
     description:
@@ -58,6 +51,14 @@ export const projectsData = [
     tags: ["React", "Express.js","Node.js ","Redux","Cloudinary","MongoDB", "Tailwind", "DaisyUI", "Razorpay"],
     link:"https://learning-management-system-roan.vercel.app/",
     imageUrl:lms
+  },
+  {
+    title: "SwiftScribe",
+    description:
+    "SwiftScribe is a SaaS platform that offers efficient study material management, peer collaboration, and AI-powered academic support.",
+    tags: ["Next.js", "PostgreSQL","TypeScript", "Kinde","ChatGPT API","STRIPE"],
+    link:"https://swift-scribe-seven.vercel.app/",
+    imageUrl: SwiftScribe
   }
 ] as const;
 
@@ -96,7 +97,7 @@ export const experiencesData = [
     description:
     "Implemented key features on the GirlScript Summer of Code (GSSOC 2024) website, leading to a more engaging and user-friendly experience.",
     icon: React.createElement(FaCode),
-    date: "04/24-Present",
+    date: "04/24-08/24",
   },
   {
     title: "AICTE Virtual Cyber Security Internship",

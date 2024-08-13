@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 import live from "@/public/livecode.jpg"
 import lms from "@/public/lms.jpg"
-import portfolio from "@/public/portfolio.jpg"
+import SwiftScribe from "@/public/SwiftScribe.jpg"
 
 export const links = [
   {
@@ -36,12 +36,12 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "LMS",
+    title: "SwiftScribe",
     description:
-      "This Learning Management System (LMS) is a full-stack web application developed using the MERN stack.",
-    tags: ["React", "Express.js","Node.js ","Redux","Cloudinary","MongoDB", "Tailwind", "DaisyUI", "Razorpay"],
-    link:"https://learning-management-system-roan.vercel.app/",
-    imageUrl:lms
+    "SwiftScribe is a SaaS platform that offers efficient study material management, peer collaboration, and AI-powered academic support.",
+    tags: ["Next.js", "PostgreSQL","TypeScript", "Kinde","ChatGPT API","STRIPE"],
+    link:"https://swift-scribe-seven.vercel.app/",
+    imageUrl: SwiftScribe
   },
   {
     title: "   Live-Code-Share",
@@ -52,12 +52,12 @@ export const projectsData = [
     imageUrl: live
   },
   {
-    title: "Portfolio",
+    title: "LMS",
     description:
-    "This is a TypeScript-based app showcasing my projects and skills.",
-    tags: ["c.js", "Framer", "Motion", "TypeScript", "Tailwind " , "Email"],
-    link:"",
-    imageUrl: portfolio
+      "This Learning Management System (LMS) is a full-stack web application developed using the MERN stack.",
+    tags: ["React", "Express.js","Node.js ","Redux","Cloudinary","MongoDB", "Tailwind", "DaisyUI", "Razorpay"],
+    link:"https://learning-management-system-roan.vercel.app/",
+    imageUrl:lms
   }
 ] as const;
 

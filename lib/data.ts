@@ -35,7 +35,6 @@ export const links = [
 ] as const;
 
 export const projectsData = [
-  ,
   {
     title: "   Live-Code-Share",
     description:

@@ -44,6 +44,14 @@ export const projectsData = [
     imageUrl: live
   },
   {
+    title: "SwiftScribe",
+    description:
+    "SwiftScribe is a SaaS platform that offers efficient study material management, peer collaboration, and AI-powered academic support.",
+    tags: ["Next.js", "PostgreSQL","TypeScript", "Kinde","ChatGPT API","STRIPE"],
+    link:"https://swift-scribe-seven.vercel.app/",
+    imageUrl: SwiftScribe
+  },
+  {
     title: "LMS",
     description:
       "This Learning Management System (LMS) is a full-stack web application developed using the MERN stack.",
@@ -51,14 +59,7 @@ export const projectsData = [
     link:"https://learning-management-system-roan.vercel.app/",
     imageUrl:lms
   },
-  {
-    title: "SwiftScribe",
-    description:
-    "SwiftScribe is a SaaS platform that offers efficient study material management, peer collaboration, and AI-powered academic support.",
-    tags: ["Next.js", "PostgreSQL","TypeScript", "Kinde","ChatGPT API","STRIPE"],
-    link:"https://swift-scribe-seven.vercel.app/",
-    imageUrl: SwiftScribe
-  }
+ 
 ] as const;
 
 export const skillsData = [

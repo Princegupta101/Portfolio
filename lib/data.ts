@@ -91,6 +91,14 @@ export const skillsData = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer intern",
+    location: "Mohali, Punjab",
+    description:
+    "Currently contributing to the development of Evergraph, a pre-launch product, by building the frontend using React and TypeScript, and also contributing to backend development including API integration and database management.",
+    icon: React.createElement(FaCode),
+    date: "02/25-Present",
+  },
+  {
     title: "Full Stack Web Developer(Core Team )",
     location: "Remote",
     description:

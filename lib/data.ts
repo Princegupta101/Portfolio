@@ -87,16 +87,25 @@ export const skillsData = [
   "Framer Motion",
   "OOP",
   "DSA",
+  "GraphQL"
 ] as const;
 
 export const experiencesData = [
+   {
+    title: "Software Engineer",
+    location: "Agra,IND (Remote)",
+    description:
+    "Working on end-to-end workflows by developing scalable backend services with Node.js/Express and GraphQL APIs, creating high-performance frontend components with Next.js and TypeScript, and optimizing dashboards and internal tools through third-party API integrations to enhance efficiency.",
+    icon: React.createElement(CgWorkAlt),
+    date: "08/25-Present",
+  },
   {
-    title: "Full Stack Developer intern",
+    title: "Software Engineer Intern ",
     location: "Mohali, Punjab",
     description:
-    "Currently contributing to the development of Evergraph, a pre-launch product, by building the frontend using React and TypeScript, and also contributing to backend development including API integration and database management.",
+    " Contributed to the development of Evergraph, a pre-launch product, by building the frontend using React and TypeScript, and also contributing to backend development including API integration and database management.",
     icon: React.createElement(FaCode),
-    date: "02/25-Present",
+    date: "02/25-07/25",
   },
   {
     title: "Full Stack Web Developer(Core Team )",
@@ -107,19 +116,11 @@ export const experiencesData = [
     date: "04/24-08/24",
   },
   {
-    title: "AICTE Virtual Cyber Security Internship",
-    location: "Remote",
-    description:
-    "I worked as a cybersecurity intern, implementing a Packet Tracer project, and upskilled in the cybersecurity domain.",
-    icon: React.createElement(LuGraduationCap),
-    date: "05/23-08/23",
-  },
-  {
     title: "Front-End Developer Intern",
     location: "Remote",
     description:
     "I interned as a front-end developer, spearheading the redesign of the homepage, while concurrently upskilling to become proficient in full-stack development.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaCode),
     date: "05/23-06/23",
   },
 ] as const;

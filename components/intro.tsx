@@ -85,7 +85,7 @@ export default function Intro() {
 
             <a
                     className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:ring-2 focus:ring-white focus:ring-offset-gray-900 focus:ring-offset-2 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60"
-                    href="https://drive.google.com/file/d/1fUZ68H4VUtcpqDIHO7aKjLN-b4GgAz0S/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1w39uHeasqJuJ93MWodQiMLcfW4jq2xwU/view?usp=sharing"
                     target="_blank"
                 >
                     View CV{" "}

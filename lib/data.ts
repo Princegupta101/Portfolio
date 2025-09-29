@@ -92,7 +92,7 @@ export const skillsData = [
 
 export const experiencesData = [
    {
-    title: "Software Engineer(Web) at Technawab ",
+    title: "Software Engineer(Web) at Technawab",
     location: "Agra,IND (Remote)",
     description:
     "Working on end-to-end workflows by developing scalable backend services with Node.js/Express and GraphQL APIs, creating high-performance frontend components with Next.js and TypeScript, and optimizing dashboards and internal tools through third-party API integrations to enhance efficiency.",

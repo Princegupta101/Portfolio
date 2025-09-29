@@ -92,7 +92,7 @@ export const skillsData = [
 
 export const experiencesData = [
    {
-    title: "Software Engineer",
+    title: "Software Engineer(Web) at Technawab ",
     location: "Agra,IND (Remote)",
     description:
     "Working on end-to-end workflows by developing scalable backend services with Node.js/Express and GraphQL APIs, creating high-performance frontend components with Next.js and TypeScript, and optimizing dashboards and internal tools through third-party API integrations to enhance efficiency.",
@@ -100,7 +100,7 @@ export const experiencesData = [
     date: "08/25-Present",
   },
   {
-    title: "Software Engineer Intern ",
+    title: "Software Engineer Intern at Evergraph",
     location: "Mohali, Punjab",
     description:
     " Contributed to the development of Evergraph, a pre-launch product, by building the frontend using React and TypeScript, and also contributing to backend development including API integration and database management.",
@@ -108,7 +108,7 @@ export const experiencesData = [
     date: "02/25-07/25",
   },
   {
-    title: "Full Stack Web Developer(Core Team )",
+    title: "Full Stack Web Developer(Core Team) at GSSOC",
     location: "Remote",
     description:
     "Implemented key features on the GirlScript Summer of Code (GSSOC 2024) website, leading to a more engaging and user-friendly experience.",
@@ -116,7 +116,7 @@ export const experiencesData = [
     date: "04/24-08/24",
   },
   {
-    title: "Front-End Developer Intern",
+    title: "Front-End Developer Intern at Shoppeal Tech",
     location: "Remote",
     description:
     "I interned as a front-end developer, spearheading the redesign of the homepage, while concurrently upskilling to become proficient in full-stack development.",

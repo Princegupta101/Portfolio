@@ -6,7 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import live from "@/public/livecode.jpg"
 import lms from "@/public/lms.jpg"
 import SwiftScribe from "@/public/SwiftScribe.jpg"
-
+import nakshx from "@/public/nakshx.png"
 export const links = [
   {
     name: "Home",
@@ -35,6 +35,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+   {
+    title: "NakshX",
+    description:
+      "Plan your day with precision, powered by astrology and AI.",
+  tags: ["React-Native", "Fast-API ", "React-Query", "Expo", "TypeScript","Express.js","AWS", "Next.js","Redux","Cloudinary","MongoDB"],
+    link:"https://www.nakshx.com/",
+    imageUrl:nakshx
+  },
   {
     title: "LMS",
     description:

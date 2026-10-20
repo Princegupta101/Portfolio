@@ -98,37 +98,46 @@ export const skillsData = [
   "GraphQL"
 ] as const;
 
+
 export const experiencesData = [
-   {
-    title: "Software Engineer(Web) at Technawab",
-    location: "Agra,IND (Remote)",
+  {
+    title: "Full Stack Developer at StatsUSA",
+    location: "India (Remote)",
     description:
-    "Working on end-to-end workflows by developing scalable backend services with Node.js/Express and GraphQL APIs, creating high-performance frontend components with Next.js and TypeScript, and optimizing dashboards and internal tools through third-party API integrations to enhance efficiency.",
+      "Developing a U.S. data intelligence and analytics platform with interactive charts, maps, and filters for demographic, economic, crime, and geographic datasets. Building AI-powered conversational features with LLM integration and backend APIs for natural-language data exploration.",
     icon: React.createElement(CgWorkAlt),
-    date: "08/25-Present",
+    date: "Oct 2026 - Present",
+  },
+  {
+    title: "Software Engineer at Technawab",
+    location: "Agra, India (Remote)",
+    description:
+      "Engineered a client-facing device configuration platform using GraphQL, gRPC, and microservices. Developed full-stack modules for AskYourFinance using Next.js, Node.js, FastAPI, PostgreSQL, and MongoDB, and implemented AI-driven financial workflows with Vertex AI and MCP tools.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2025 - Oct 2026",
   },
   {
     title: "Software Engineer Intern at Evergraph",
     location: "Mohali, Punjab",
     description:
-    " Contributed to the development of Evergraph, a pre-launch product, by building the frontend using React and TypeScript, and also contributing to backend development including API integration and database management.",
+      "Developed interactive graph-based interfaces using React Flow and reusable components, improving visualization performance by 25%. Integrated REST APIs with TanStack Query for efficient caching and server-state management across 20+ frontend components.",
     icon: React.createElement(FaCode),
-    date: "02/25-07/25",
+    date: "Feb 2025 - Jul 2025",
   },
   {
-    title: "Full Stack Web Developer(Core Team) at GSSOC",
+    title: "Full Stack Web Developer (Core Team) at GSSOC",
     location: "Remote",
     description:
-    "Implemented key features on the GirlScript Summer of Code (GSSOC 2024) website, leading to a more engaging and user-friendly experience.",
+      "Contributed to the GirlScript Summer of Code (GSSOC 2024) website as a core team member, implementing frontend features and improving the overall user experience.",
     icon: React.createElement(FaCode),
-    date: "04/24-08/24",
+    date: "Apr 2024 - Aug 2024",
   },
   {
     title: "Front-End Developer Intern at Shoppeal Tech",
     location: "Remote",
     description:
-    "I interned as a front-end developer, spearheading the redesign of the homepage, while concurrently upskilling to become proficient in full-stack development.",
+      "Redesigned the homepage and developed responsive frontend components, focusing on UI quality, usability, and improving the overall user experience.",
     icon: React.createElement(FaCode),
-    date: "05/23-06/23",
+    date: "May 2023 - Jun 2023",
   },
 ] as const;

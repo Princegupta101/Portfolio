@@ -1,5 +1,5 @@
 // RootLayout.tsx
-import { Inter } from 'next/font/google';
+import { Inter, Space_Grotesk } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 
 import ActiveSectionContextProvider from '@/context/active-section-context';
@@ -10,11 +10,19 @@ import ThemeSwitch from '@/components/theme-switch';
 
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' });
 
 export const metadata = {
-  title: 'Prince | Personal Portfolio',
-  description: 'Prince is a full-stack developer',
+  title: 'Prince Gupta | Software Engineer',
+  description: 'Prince Gupta is a Software Engineer specializing in full-stack development with React, Next.js, Node.js, and cloud technologies. Explore projects, experience, and skills.',
+  keywords: 'Software Engineer, Full Stack Developer, React, Next.js, Node.js, TypeScript, Portfolio',
+  authors: [{ name: 'Prince Gupta' }],
+  openGraph: {
+    title: 'Prince Gupta | Software Engineer',
+    description: 'Software Engineer specializing in full-stack development. Building scalable, production-grade web applications.',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -25,18 +33,37 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.variable} ${spaceGrotesk.variable} font-sans bg-[#fafbff] text-gray-950 relative pt-28 sm:pt-36 dark:bg-[#0f172a] dark:text-gray-50 dark:text-opacity-90 bg-grid`}
       >
-        {/* Add dynamic background elements */}
-        <div className="bg-[#f4f4f4] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
-        <div className="bg-[#eff2f6] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+        {/* Animated background orbs */}
+        <div className="bg-orb bg-orb-1" aria-hidden="true"></div>
+        <div className="bg-orb bg-orb-2" aria-hidden="true"></div>
+        <div className="bg-orb bg-orb-3" aria-hidden="true"></div>
+
+        {/* Floating particles */}
+        <div className="particle" style={{ top: '10%', left: '20%', animationDelay: '0s' }} aria-hidden="true"></div>
+        <div className="particle" style={{ top: '30%', right: '15%', animationDelay: '-3s' }} aria-hidden="true"></div>
+        <div className="particle" style={{ top: '60%', left: '10%', animationDelay: '-6s' }} aria-hidden="true"></div>
+        <div className="particle" style={{ top: '80%', right: '25%', animationDelay: '-9s' }} aria-hidden="true"></div>
+        <div className="particle" style={{ top: '50%', left: '50%', animationDelay: '-12s' }} aria-hidden="true"></div>
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
             {children}
             <Footer />
-            <Toaster position="top-right" />
+            <Toaster
+              position="top-right"
+              toastOptions={{
+                style: {
+                  background: 'rgba(255, 255, 255, 0.9)',
+                  backdropFilter: 'blur(10px)',
+                  border: '1px solid rgba(99, 102, 241, 0.1)',
+                  borderRadius: '12px',
+                  padding: '12px 20px',
+                },
+              }}
+            />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
